@@ -1,0 +1,94 @@
+Diagram Representation:
+
+___________________________________________________________________________
+|                         Shooter Character Interface                      |
+|__________________________________________________________________________|
+| Character Stats Section:                                                |
+|   - Name: [Character Name]                                              |
+|   - Job: Shooter                                                        |
+|   - HP: [Health Points]                                                 |
+|   - Accuracy                                                            |
+|   - Evasion                                                             |
+|   - Level                                                               |
+|                                                                         |
+| Abilities/Attacks Section:                                              |
+|   - Aimed Shot                                                          |
+|   - Rapid Fire                                                          |
+|   - Cover Fire                                                          |
+|                                                                         |
+| Equipment Section:                                                      |
+|   - Firearm: [Equipped Firearm Name]                                    |
+|   - Tactical Gear: [Equipped Gear Name]                                 |
+|   - Accessory 1: [Equipped Accessory Name]                              |
+|   - Accessory 2: [Equipped Accessory Name]                              |
+|                                                                         |
+| Operations:                                                             |
+|   - Equip Firearm/Tactical Gear/Accessory                               |
+|   - Unequip Firearm/Tactical Gear/Accessory                             |
+|   - View Stats                                                          |
+|   - Use Ability/Attack                                                  |
+|_________________________________________________________________________|
+
+___________________________________________________________________________
+|                         Mage Character Interface                         |
+|__________________________________________________________________________|
+| Character Stats Section:                                                |
+|   - Name: [Name of the character]                                       |
+|   - Job: Mage                                                           |
+|   - HP: [Health Points]                                                 |
+|   - MP: [Magic Points]                                                  |
+|   - Intelligence                                                        |
+|   - Resistance                                                          |
+|   - Level                                                               |
+|                                                                         |
+| Spells Section:                                                         |
+|   - Fireball                                                            |
+|   - Ice Blast                                                           |
+|   - Thunderbolt                                                         |
+|   - Heal                                                                |
+|                                                                         |
+| Equipment Section:                                                      |
+|   - Weapon: [Equipped Weapon Name]                                      |
+|   - Robe: [Equipped Robe Name]                                          |
+|   - Accessory 1: [Equipped Accessory Name]                              |
+|   - Accessory 2: [Equipped Accessory Name]                              |
+|                                                                         |
+| Operations:                                                             |
+|   - Equip Weapon/Robe/Accessory                                         |
+|   - Unequip Weapon/Robe/Accessory                                       |
+|   - View Stats                                                          |
+|   - Cast Spell                                                          |
+|_________________________________________________________________________|
+
+___________________________________________________________________________
+|                         Gun Accessory Interface                          |
+|__________________________________________________________________________|
+| Gun Accessory Details:                                                  |
+|   - Name: [Gun Name]                                                    |
+|   - Type: [Gun Type - Pistol, Rifle, Shotgun, etc.]                     |
+|   - Damage: [Damage Range]                                              |
+|   - Ammo Capacity: [Capacity]                                           |
+|   - Special Ability: [Special Ability, if any]                          |
+|                                                                         |
+| Operations:                                                             |
+|   - Equip Gun                                                           |
+|   - Unequip Gun                                                         |
+|   - Check Ammo                                                          |
+|   - Reload Ammo                                                         |
+|_________________________________________________________________________|
+
+___________________________________________________________________________
+|                        Magic Key Accessory Interface                     |
+|__________________________________________________________________________|
+| Magic Key Details:                                                      |
+|   - Name: [Magic Key Name]                                              |
+|   - Enchantment: [Enchantment Type - Unlocking, Teleportation, Sealing] |
+|   - Usage: [Number of Uses/Charges]                                     |
+|   - Special Ability: [Special Ability, if any]                          |
+|                                                                         |
+| Operations:                                                             |
+|   - Equip Key                                                           |
+|   - Unequip Key                                                         |
+|   - Use Key (to unlock, seal, or teleport)                              |
+|   - Check Remaining Uses                                                |
+|_________________________________________________________________________|
